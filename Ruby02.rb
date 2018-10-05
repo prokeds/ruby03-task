@@ -12,23 +12,23 @@ array = [1,2,3,4]
 #5.4で定義した配列を「num_array」と言う変数に代入してください。
 num_array = [1,2,3,4]
 #6.num_arrayの中身をpメソッドで出力してください
-p num_array[1]
+p num_array
 #7.自分の名前、生年月日、血液型をハッシュで表して定義してみましょう。
-compliance　= { name: "nakai", birth:5944, blood:o}
-puts compliance[:name]
-puts compliance[:birth]
-puts compliance[:blood]
+com = { name: "nakai", birth: 5944, blood: "o"}
+p com[:name]
+p com[:birth]
+p com[:blood]
 #8.渡された文字列に「ruby」を足して返すメソッドを作成しましょう。
 def plus_ruby(name)
-  p name + "ruby"
+  return name + "ruby"
 end
 
 p plus_ruby("like")
 p plus_ruby("yhee")
 
 #9.渡された数字に1を足して返すメソッドを作成しましょう。
-def plus_one
-  p 1.next
+def plus_one(number)
+  return number + 1
 end
 
 p plus_one(4)
