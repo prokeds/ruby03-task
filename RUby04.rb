@@ -25,13 +25,23 @@ People.insta
 class People
   attr_accessor :name
 
-  def initialize(name)
+  def initialize name
     @name = name
   end
+
+  def name
+    @name
+  end
+
+  def hero
+    p "私は目から" + @name +"が出せます"
+  end
+
 end
 
-people = People.new("私は目からビームが出せます")
-p people
+people = People.new "ナミダ"
+people.name = "ビーム"
+people.hero
 
 #5Peopleクラスを継承して、SuperPeopleクラスを作成してください。
 #6SuperPeopleクラスに「私は目からビームが出せます」
