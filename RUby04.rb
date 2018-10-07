@@ -21,8 +21,18 @@ end
 
 People.insta
 #4Peopleクラスに、インスタンス変数「@name」を定義し、
-
 #「attr_accesor」メソッドでアクセスできるようにしてください。
+class People
+  attr_accessor :name
+
+  def initialize(name)
+    @name = name
+  end
+end
+
+people = People.new("私は目からビームが出せます")
+p people
+
 #5Peopleクラスを継承して、SuperPeopleクラスを作成してください。
 #6SuperPeopleクラスに「私は目からビームが出せます」
 #と出力するクラスメソッドを定義してください。
