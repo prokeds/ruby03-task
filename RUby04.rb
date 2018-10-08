@@ -44,5 +44,15 @@ people.name = "ビーム"
 people.hero
 
 #5Peopleクラスを継承して、SuperPeopleクラスを作成してください。
+class People
+  def self.ability
+    p "superPeopleクラスです"
+  end
+end
+
+class SuperPeople < People
+end
+
+SuperPeople.ability
 #6SuperPeopleクラスに「私は目からビームが出せます」
 #と出力するクラスメソッドを定義してください。
