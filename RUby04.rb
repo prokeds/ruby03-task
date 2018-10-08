@@ -46,7 +46,7 @@ people.hero
 #5Peopleクラスを継承して、SuperPeopleクラスを作成してください。
 class People
   def self.ability
-    p "superPeopleクラスです"
+    p "superpeopleクラスです"
   end
 end
 
