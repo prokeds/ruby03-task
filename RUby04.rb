@@ -56,3 +56,10 @@ end
 SuperPeople.ability
 #6SuperPeopleクラスに「私は目からビームが出せます」
 #と出力するクラスメソッドを定義してください。
+class SuperPeople
+  def self.superpeople
+    p "私は目からビームが出せます"
+  end
+end
+
+SuperPeople.superpeople
