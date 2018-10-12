@@ -25,12 +25,7 @@ People.insta
 class People
   attr_accessor :name
 
-  def initialize name
-    @name = name
-  end
-
-  def name
-    @name
+  def initialize
   end
 
   def hero
